@@ -1,8 +1,9 @@
-CMakeFiles/ReadHEPMC.dir/src/main.cc.o: \
- /home/ethazelt/km3net/ReadHepMC2_Geant4/src/main.cc \
+CMakeFiles/ReadHEPMC.dir/src/HepMCG4Interface.cc.o: \
+ /home/ethazelt/km3net/ReadHepMC2_Geant4/src/HepMCG4Interface.cc \
  /usr/include/stdc-predef.h \
- /data/km3net/geant4.10.05.p01/source/run/include/G4RunManager.hh \
- /data/km3net/geant4.10.05.p01/source/run/include/G4RunManagerKernel.hh \
+ /home/ethazelt/km3net/ReadHepMC2_Geant4/include/HepMCG4Interface.hh \
+ /data/km3net/geant4.10.05.p01/source/event/include/G4VPrimaryGenerator.hh \
+ /data/km3net/geant4.10.05.p01/source/global/management/include/G4ThreeVector.hh \
  /data/km3net/geant4.10.05.p01/source/global/management/include/globals.hh \
  /data/km3net/geant4.10.05.p01/source/global/management/include/G4ios.hh \
  /data/km3net/geant4.10.05.p01/source/global/management/include/G4Types.hh \
@@ -184,6 +185,35 @@ CMakeFiles/ReadHEPMC.dir/src/main.cc.o: \
  /usr/include/c++/11/bits/parse_numbers.h \
  /usr/include/c++/11/bits/std_mutex.h \
  /usr/include/c++/11/bits/unique_lock.h \
+ /data/km3net/geant4.10.05.p01/source/externals/clhep/include/CLHEP/Vector/ThreeVector.h \
+ /data/km3net/geant4.10.05.p01/source/externals/clhep/include/CLHEP/Utility/defs.h \
+ /data/km3net/geant4.10.05.p01/source/externals/clhep/include/CLHEP/Vector/ThreeVector.icc \
+ /data/ethazelt/hepmc2.06.09/include/HepMC/GenEvent.h \
+ /data/ethazelt/hepmc2.06.09/include/HepMC/GenVertex.h \
+ /data/ethazelt/hepmc2.06.09/include/HepMC/WeightContainer.h \
+ /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_uninitialized.h \
+ /usr/include/c++/11/bits/stl_vector.h \
+ /usr/include/c++/11/bits/stl_bvector.h \
+ /usr/include/c++/11/bits/vector.tcc \
+ /data/ethazelt/hepmc2.06.09/include/HepMC/SimpleVector.h \
+ /data/ethazelt/hepmc2.06.09/include/HepMC/enable_if.h \
+ /data/ethazelt/hepmc2.06.09/include/HepMC/is_arithmetic.h \
+ /data/ethazelt/hepmc2.06.09/include/HepMC/SimpleVector.icc \
+ /data/ethazelt/hepmc2.06.09/include/HepMC/IteratorRange.h \
+ /usr/include/c++/11/iterator /usr/include/c++/11/bits/stream_iterator.h \
+ /usr/include/c++/11/set /usr/include/c++/11/bits/stl_set.h \
+ /usr/include/c++/11/bits/stl_multiset.h /usr/include/c++/11/cstddef \
+ /data/ethazelt/hepmc2.06.09/include/HepMC/GenParticle.h \
+ /data/ethazelt/hepmc2.06.09/include/HepMC/Flow.h \
+ /data/ethazelt/hepmc2.06.09/include/HepMC/Polarization.h \
+ /data/ethazelt/hepmc2.06.09/include/HepMC/GenCrossSection.h \
+ /data/ethazelt/hepmc2.06.09/include/HepMC/HeavyIon.h \
+ /data/ethazelt/hepmc2.06.09/include/HepMC/PdfInfo.h \
+ /data/ethazelt/hepmc2.06.09/include/HepMC/Units.h \
+ /data/ethazelt/hepmc2.06.09/include/HepMC/HepMCDefs.h \
+ /data/km3net/geant4.10.05.p01/source/run/include/G4RunManager.hh \
+ /data/km3net/geant4.10.05.p01/source/run/include/G4RunManagerKernel.hh \
+ /data/km3net/geant4.10.05.p01/source/global/management/include/globals.hh \
  /data/km3net/geant4.10.05.p01/source/event/include/G4EventManager.hh \
  /data/km3net/geant4.10.05.p01/source/event/include/evmandefs.hh \
  /data/km3net/geant4.10.05.p01/source/event/include/trajectoryControl.hh \
@@ -193,18 +223,9 @@ CMakeFiles/ReadHEPMC.dir/src/main.cc.o: \
  /data/km3net/geant4.10.05.p01/source/event/include/G4StackedTrack.hh \
  /data/km3net/geant4.10.05.p01/source/event/include/G4TrackStack.hh \
  /data/km3net/geant4.10.05.p01/source/global/management/include/G4Types.hh \
- /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_uninitialized.h \
- /usr/include/c++/11/bits/stl_vector.h \
- /usr/include/c++/11/bits/stl_bvector.h \
- /usr/include/c++/11/bits/vector.tcc \
  /data/km3net/geant4.10.05.p01/source/event/include/G4SmartTrackStack.hh \
  /data/km3net/geant4.10.05.p01/source/track/include/G4Track.hh \
  /data/km3net/geant4.10.05.p01/source/track/include/trkdefs.hh \
- /data/km3net/geant4.10.05.p01/source/global/management/include/G4ThreeVector.hh \
- /data/km3net/geant4.10.05.p01/source/global/management/include/globals.hh \
- /data/km3net/geant4.10.05.p01/source/externals/clhep/include/CLHEP/Vector/ThreeVector.h \
- /data/km3net/geant4.10.05.p01/source/externals/clhep/include/CLHEP/Utility/defs.h \
- /data/km3net/geant4.10.05.p01/source/externals/clhep/include/CLHEP/Vector/ThreeVector.icc \
  /data/km3net/geant4.10.05.p01/source/geometry/management/include/G4LogicalVolume.hh \
  /data/km3net/geant4.10.05.p01/source/geometry/management/include/G4Region.hh \
  /data/km3net/geant4.10.05.p01/source/global/management/include/G4String.hh \
@@ -225,7 +246,6 @@ CMakeFiles/ReadHEPMC.dir/src/main.cc.o: \
  /usr/include/c++/11/bits/atomic_futex.h \
  /usr/include/c++/11/bits/std_function.h \
  /data/km3net/geant4.10.05.p01/source/global/management/include/G4Allocator.hh \
- /usr/include/c++/11/cstddef \
  /data/km3net/geant4.10.05.p01/source/global/management/include/G4AllocatorPool.hh \
  /data/km3net/geant4.10.05.p01/source/geometry/management/include/G4Region.icc \
  /data/km3net/geant4.10.05.p01/source/geometry/management/include/G4VPhysicalVolume.hh \
@@ -469,241 +489,9 @@ CMakeFiles/ReadHEPMC.dir/src/main.cc.o: \
  /data/km3net/geant4.10.05.p01/source/event/include/G4VUserEventInformation.hh \
  /usr/include/c++/11/list /usr/include/c++/11/bits/stl_list.h \
  /usr/include/c++/11/bits/list.tcc \
- /data/km3net/geant4.10.05.p01/source/materials/include/G4NistManager.hh \
- /data/km3net/geant4.10.05.p01/source/materials/include/G4Material.hh \
- /data/km3net/geant4.10.05.p01/source/materials/include/G4NistElementBuilder.hh \
- /data/km3net/geant4.10.05.p01/source/materials/include/G4NistMaterialBuilder.hh \
- /data/km3net/geant4.10.05.p01/source/materials/include/G4ICRU90StoppingData.hh \
- /data/km3net/geant4.10.05.p01/source/global/management/include/G4LPhysicsFreeVector.hh \
- /data/km3net/geant4.10.05.p01/source/global/management/include/G4PhysicsFreeVector.hh \
- /data/km3net/geant4.10.05.p01/source/global/management/include/G4Pow.hh \
- /data/km3net/geant4.10.05.p01/source/global/management/include/G4Exp.hh \
- /data/km3net/geant4.10.05.p01/source/geometry/solids/CSG/include/G4Box.hh \
- /data/km3net/geant4.10.05.p01/source/geometry/solids/CSG/include/G4CSGSolid.hh \
- /data/km3net/geant4.10.05.p01/source/graphics_reps/include/G4Polyhedron.hh \
- /data/km3net/geant4.10.05.p01/source/graphics_reps/include/HepPolyhedron.h \
- /data/km3net/geant4.10.05.p01/source/global/HEPGeometry/include/G4Point3D.hh \
- /data/km3net/geant4.10.05.p01/source/global/HEPGeometry/include/G4Normal3D.hh \
- /data/km3net/geant4.10.05.p01/source/graphics_reps/include/G4Visible.hh \
- /data/km3net/geant4.10.05.p01/source/graphics_reps/include/G4Visible.icc \
- /data/km3net/geant4.10.05.p01/source/geometry/solids/CSG/include/G4Box.icc \
- /data/km3net/geant4.10.05.p01/source/geometry/volumes/include/G4PVPlacement.hh \
- /data/km3net/geant4.10.05.p01/source/run/include/G4VUserDetectorConstruction.hh \
- /data/km3net/geant4.10.05.p01/source/run/include/G4VUserPhysicsList.hh \
- /data/km3net/geant4.10.05.p01/source/global/management/include/tls.hh \
- /data/km3net/geant4.10.05.p01/source/run/include/rundefs.hh \
- /data/km3net/geant4.10.05.p01/source/processes/cuts/include/G4ProductionCutsTable.hh \
- /data/km3net/geant4.10.05.p01/source/processes/cuts/include/G4MaterialCutsCouple.hh \
- /data/km3net/geant4.10.05.p01/source/processes/cuts/include/G4ProductionCuts.hh \
- /data/km3net/geant4.10.05.p01/source/processes/cuts/include/G4MCCIndexConversionTable.hh \
- /data/km3net/geant4.10.05.p01/source/geometry/management/include/G4Region.hh \
- /data/km3net/geant4.10.05.p01/source/run/include/G4VUPLSplitter.hh \
- /data/km3net/geant4.10.05.p01/source/physics_lists/lists/include/FTFP_BERT.hh \
- /data/km3net/geant4.10.05.p01/source/run/include/G4VModularPhysicsList.hh \
- /data/km3net/geant4.10.05.p01/source/run/include/G4VUserPhysicsList.hh \
- /data/km3net/geant4.10.05.p01/source/run/include/G4VPhysicsConstructor.hh \
- /data/km3net/geant4.10.05.p01/source/run/include/G4PhysicsListHelper.hh \
- /data/km3net/geant4.10.05.p01/source/run/include/G4PhysicsListOrderingParameter.hh \
- /data/km3net/geant4.10.05.p01/source/physics_lists/util/include/CompileTimeConstraints.hh \
- /data/km3net/geant4.10.05.p01/source/physics_lists/lists/include/FTFP_BERT.icc \
- /data/km3net/geant4.10.05.p01/source/processes/management/include/G4ProcessVector.hh \
- /data/km3net/geant4.10.05.p01/source/processes/management/include/G4ParticleTypes.hh \
- /data/km3net/geant4.10.05.p01/source/particles/bosons/include/G4ChargedGeantino.hh \
- /data/km3net/geant4.10.05.p01/source/particles/bosons/include/G4Geantino.hh \
- /data/km3net/geant4.10.05.p01/source/particles/bosons/include/G4Gamma.hh \
- /data/km3net/geant4.10.05.p01/source/particles/bosons/include/G4OpticalPhoton.hh \
- /data/km3net/geant4.10.05.p01/source/particles/bosons/include/G4UnknownParticle.hh \
- /data/km3net/geant4.10.05.p01/source/particles/leptons/include/G4MuonPlus.hh \
- /data/km3net/geant4.10.05.p01/source/particles/leptons/include/G4MuonMinus.hh \
- /data/km3net/geant4.10.05.p01/source/particles/leptons/include/G4TauMinus.hh \
- /data/km3net/geant4.10.05.p01/source/particles/leptons/include/G4TauPlus.hh \
- /data/km3net/geant4.10.05.p01/source/particles/leptons/include/G4Electron.hh \
- /data/km3net/geant4.10.05.p01/source/particles/leptons/include/G4Positron.hh \
- /data/km3net/geant4.10.05.p01/source/particles/leptons/include/G4NeutrinoTau.hh \
- /data/km3net/geant4.10.05.p01/source/particles/leptons/include/G4AntiNeutrinoTau.hh \
- /data/km3net/geant4.10.05.p01/source/particles/leptons/include/G4NeutrinoMu.hh \
- /data/km3net/geant4.10.05.p01/source/particles/leptons/include/G4AntiNeutrinoMu.hh \
- /data/km3net/geant4.10.05.p01/source/particles/leptons/include/G4NeutrinoE.hh \
- /data/km3net/geant4.10.05.p01/source/particles/leptons/include/G4AntiNeutrinoE.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/mesons/include/G4PionPlus.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/mesons/include/G4PionMinus.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/mesons/include/G4PionZero.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/mesons/include/G4Eta.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/mesons/include/G4EtaPrime.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/mesons/include/G4KaonPlus.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/mesons/include/G4KaonMinus.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/mesons/include/G4KaonZero.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/mesons/include/G4AntiKaonZero.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/mesons/include/G4KaonZeroLong.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/mesons/include/G4KaonZeroShort.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/mesons/include/G4DMesonPlus.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/mesons/include/G4DMesonMinus.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/mesons/include/G4DMesonZero.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/mesons/include/G4AntiDMesonZero.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/mesons/include/G4DsMesonPlus.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/mesons/include/G4DsMesonMinus.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/mesons/include/G4JPsi.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/mesons/include/G4Etac.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/mesons/include/G4BMesonPlus.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/mesons/include/G4BMesonMinus.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/mesons/include/G4BMesonZero.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/mesons/include/G4AntiBMesonZero.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/mesons/include/G4BsMesonZero.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/mesons/include/G4AntiBsMesonZero.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/mesons/include/G4Upsilon.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/barions/include/G4Proton.hh \
- /data/km3net/geant4.10.05.p01/source/particles/management/include/G4Ions.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/barions/include/G4AntiProton.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/barions/include/G4Neutron.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/barions/include/G4AntiNeutron.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/barions/include/G4Lambda.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/barions/include/G4SigmaPlus.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/barions/include/G4SigmaZero.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/barions/include/G4SigmaMinus.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/barions/include/G4XiMinus.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/barions/include/G4XiZero.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/barions/include/G4OmegaMinus.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/barions/include/G4AntiLambda.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/barions/include/G4AntiSigmaPlus.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/barions/include/G4AntiSigmaZero.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/barions/include/G4AntiSigmaMinus.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/barions/include/G4AntiXiMinus.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/barions/include/G4AntiXiZero.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/barions/include/G4AntiOmegaMinus.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/barions/include/G4LambdacPlus.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/barions/include/G4SigmacPlusPlus.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/barions/include/G4SigmacPlus.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/barions/include/G4SigmacZero.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/barions/include/G4XicPlus.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/barions/include/G4XicZero.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/barions/include/G4OmegacZero.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/barions/include/G4AntiLambdacPlus.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/barions/include/G4AntiSigmacPlusPlus.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/barions/include/G4AntiSigmacPlus.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/barions/include/G4AntiSigmacZero.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/barions/include/G4AntiXicPlus.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/barions/include/G4AntiXicZero.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/barions/include/G4AntiOmegacZero.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/barions/include/G4Lambdab.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/barions/include/G4SigmabPlus.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/barions/include/G4SigmabZero.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/barions/include/G4SigmabMinus.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/barions/include/G4XibZero.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/barions/include/G4XibMinus.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/barions/include/G4OmegabMinus.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/barions/include/G4AntiLambdab.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/barions/include/G4AntiSigmabPlus.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/barions/include/G4AntiSigmabZero.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/barions/include/G4AntiSigmabMinus.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/barions/include/G4AntiXibZero.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/barions/include/G4AntiXibMinus.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/barions/include/G4AntiOmegabMinus.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/ions/include/G4Alpha.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/ions/include/G4Deuteron.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/ions/include/G4He3.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/ions/include/G4Triton.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/ions/include/G4AntiAlpha.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/ions/include/G4AntiDeuteron.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/ions/include/G4AntiHe3.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/ions/include/G4AntiTriton.hh \
- /data/km3net/geant4.10.05.p01/source/particles/hadrons/ions/include/G4GenericIon.hh \
- /data/km3net/geant4.10.05.p01/source/materials/include/G4MaterialTable.hh \
- /data/km3net/geant4.10.05.p01/source/physics_lists/constructors/decay/include/G4DecayPhysics.hh \
- /data/km3net/geant4.10.05.p01/source/run/include/G4VPhysicsConstructor.hh \
- /data/km3net/geant4.10.05.p01/source/processes/decay/include/G4Decay.hh \
- /data/km3net/geant4.10.05.p01/source/processes/management/include/G4VRestDiscreteProcess.hh \
- /data/km3net/geant4.10.05.p01/source/track/include/G4ParticleChangeForDecay.hh \
- /data/km3net/geant4.10.05.p01/source/processes/decay/include/G4DecayProcessType.hh \
- /data/km3net/geant4.10.05.p01/source/physics_lists/constructors/electromagnetic/include/G4EmStandardPhysics.hh \
- /data/km3net/geant4.10.05.p01/source/physics_lists/constructors/electromagnetic/include/G4EmParticleList.hh \
- /data/km3net/geant4.10.05.p01/source/physics_lists/constructors/gamma_lepto_nuclear/include/G4EmExtraPhysics.hh \
- /data/km3net/geant4.10.05.p01/source/physics_lists/constructors/gamma_lepto_nuclear/include/G4EmMessenger.hh \
- /data/km3net/geant4.10.05.p01/source/intercoms/include/G4UIdirectory.hh \
- /data/km3net/geant4.10.05.p01/source/intercoms/include/G4UIcmdWithABool.hh \
- /data/km3net/geant4.10.05.p01/source/intercoms/include/G4UIcmdWithADouble.hh \
- /data/km3net/geant4.10.05.p01/source/intercoms/include/G4UIcmdWithAString.hh \
- /data/km3net/geant4.10.05.p01/source/physics_lists/constructors/ions/include/G4IonPhysics.hh \
- /data/km3net/geant4.10.05.p01/source/physics_lists/constructors/stopping/include/G4StoppingPhysics.hh \
- /data/km3net/geant4.10.05.p01/source/physics_lists/constructors/hadron_elastic/include/G4HadronElasticPhysics.hh \
- /data/km3net/geant4.10.05.p01/source/processes/hadronic/models/coherent_elastic/include/G4HadronElastic.hh \
- /data/km3net/geant4.10.05.p01/source/processes/hadronic/models/management/include/G4HadronicInteraction.hh \
- /data/km3net/geant4.10.05.p01/source/processes/hadronic/util/include/G4HadFinalState.hh \
- /data/km3net/geant4.10.05.p01/source/processes/hadronic/util/include/G4HadSecondary.hh \
- /data/km3net/geant4.10.05.p01/source/global/HEPGeometry/include/G4LorentzRotation.hh \
- /data/km3net/geant4.10.05.p01/source/externals/clhep/include/CLHEP/Vector/LorentzRotation.h \
- /data/km3net/geant4.10.05.p01/source/externals/clhep/include/CLHEP/Vector/Boost.h \
- /data/km3net/geant4.10.05.p01/source/externals/clhep/include/CLHEP/Vector/BoostX.h \
- /data/km3net/geant4.10.05.p01/source/externals/clhep/include/CLHEP/Vector/BoostX.icc \
- /data/km3net/geant4.10.05.p01/source/externals/clhep/include/CLHEP/Vector/BoostY.h \
- /data/km3net/geant4.10.05.p01/source/externals/clhep/include/CLHEP/Vector/BoostY.icc \
- /data/km3net/geant4.10.05.p01/source/externals/clhep/include/CLHEP/Vector/BoostZ.h \
- /data/km3net/geant4.10.05.p01/source/externals/clhep/include/CLHEP/Vector/BoostZ.icc \
- /data/km3net/geant4.10.05.p01/source/externals/clhep/include/CLHEP/Vector/Boost.icc \
- /data/km3net/geant4.10.05.p01/source/externals/clhep/include/CLHEP/Vector/LorentzRotation.icc \
- /data/km3net/geant4.10.05.p01/source/processes/hadronic/util/include/G4Nucleus.hh \
- /data/km3net/geant4.10.05.p01/source/processes/hadronic/util/include/G4ReactionProduct.hh \
- /data/km3net/geant4.10.05.p01/source/processes/hadronic/util/include/G4HadProjectile.hh \
- /data/km3net/geant4.10.05.p01/source/processes/hadronic/util/include/G4HadronicException.hh \
- /data/km3net/geant4.10.05.p01/source/processes/hadronic/util/include/G4ReactionProductVector.hh \
- /data/km3net/geant4.10.05.p01/source/processes/hadronic/util/include/G4HadProjectile.hh \
- /data/km3net/geant4.10.05.p01/source/particles/management/include/G4NucleiProperties.hh \
- /data/km3net/geant4.10.05.p01/source/processes/hadronic/management/include/G4HadronicProcess.hh \
- /data/km3net/geant4.10.05.p01/source/processes/management/include/G4VDiscreteProcess.hh \
- /data/km3net/geant4.10.05.p01/source/processes/hadronic/management/include/G4EnergyRangeManager.hh \
- /data/km3net/geant4.10.05.p01/source/processes/hadronic/util/include/G4ReactionProduct.hh \
- /data/km3net/geant4.10.05.p01/source/processes/hadronic/management/include/G4HadronicProcessType.hh \
- /data/km3net/geant4.10.05.p01/source/processes/hadronic/cross_sections/include/G4CrossSectionDataStore.hh \
- /data/km3net/geant4.10.05.p01/source/processes/hadronic/cross_sections/include/G4VCrossSectionDataSet.hh \
- /data/km3net/geant4.10.05.p01/source/materials/include/G4Element.hh \
- /data/km3net/geant4.10.05.p01/source/processes/hadronic/cross_sections/include/G4FastPathHadronicCrossSection.hh \
- /data/km3net/geant4.10.05.p01/source/global/management/include/G4PhysicsFreeVector.hh \
- /usr/include/c++/11/functional /usr/include/c++/11/unordered_map \
- /usr/include/c++/11/bits/hashtable.h \
- /usr/include/c++/11/bits/hashtable_policy.h \
- /usr/include/c++/11/bits/enable_special_members.h \
- /usr/include/c++/11/bits/unordered_map.h /usr/include/c++/11/set \
- /usr/include/c++/11/bits/stl_set.h \
- /usr/include/c++/11/bits/stl_multiset.h \
- /data/km3net/geant4.10.05.p01/source/global/management/include/G4PhysicsVector.hh \
- /data/km3net/geant4.10.05.p01/source/physics_lists/constructors/limiters/include/G4NeutronTrackingCut.hh \
- /data/km3net/geant4.10.05.p01/source/physics_lists/util/include/G4DataQuestionaire.hh \
- /data/km3net/geant4.10.05.p01/source/processes/hadronic/processes/include/G4HadronElasticProcess.hh \
- /data/km3net/geant4.10.05.p01/source/processes/hadronic/processes/include/G4ProtonInelasticProcess.hh \
- /data/km3net/geant4.10.05.p01/source/processes/hadronic/management/include/G4HadronInelasticProcess.hh \
- /data/km3net/geant4.10.05.p01/source/processes/hadronic/management/include/G4HadronicProcess.hh \
- /data/km3net/geant4.10.05.p01/source/physics_lists/builders/include/G4VPiKBuilder.hh \
- /data/km3net/geant4.10.05.p01/source/run/include/G4PhysicsBuilderInterface.hh \
- /data/km3net/geant4.10.05.p01/source/processes/hadronic/processes/include/G4PionPlusInelasticProcess.hh \
- /data/km3net/geant4.10.05.p01/source/processes/hadronic/processes/include/G4PionMinusInelasticProcess.hh \
- /data/km3net/geant4.10.05.p01/source/processes/hadronic/processes/include/G4KaonPlusInelasticProcess.hh \
- /data/km3net/geant4.10.05.p01/source/processes/hadronic/processes/include/G4KaonMinusInelasticProcess.hh \
- /data/km3net/geant4.10.05.p01/source/processes/hadronic/processes/include/G4KaonZeroLInelasticProcess.hh \
- /data/km3net/geant4.10.05.p01/source/processes/hadronic/processes/include/G4KaonZeroSInelasticProcess.hh \
- /data/km3net/geant4.10.05.p01/source/physics_lists/constructors/hadron_inelastic/include/G4HadronPhysicsFTFP_BERT.hh \
- /data/km3net/geant4.10.05.p01/source/global/management/include/G4Cache.hh \
- /data/km3net/geant4.10.05.p01/source/global/management/include/G4AutoLock.hh \
- /data/km3net/geant4.10.05.p01/source/global/management/include/G4CacheDetails.hh \
- /data/km3net/geant4.10.05.p01/source/global/management/include/G4SystemOfUnits.hh \
- /home/ethazelt/km3net/ReadHepMC2_Geant4/include/HepMCG4AsciiReader.hh \
- /home/ethazelt/km3net/ReadHepMC2_Geant4/include/HepMCG4Interface.hh \
- /data/km3net/geant4.10.05.p01/source/event/include/G4VPrimaryGenerator.hh \
- /data/ethazelt/hepmc2.06.09/include/HepMC/GenEvent.h \
- /data/ethazelt/hepmc2.06.09/include/HepMC/GenVertex.h \
- /data/ethazelt/hepmc2.06.09/include/HepMC/WeightContainer.h \
- /data/ethazelt/hepmc2.06.09/include/HepMC/SimpleVector.h \
- /data/ethazelt/hepmc2.06.09/include/HepMC/enable_if.h \
- /data/ethazelt/hepmc2.06.09/include/HepMC/is_arithmetic.h \
- /data/ethazelt/hepmc2.06.09/include/HepMC/SimpleVector.icc \
- /data/ethazelt/hepmc2.06.09/include/HepMC/IteratorRange.h \
- /usr/include/c++/11/iterator /usr/include/c++/11/bits/stream_iterator.h \
- /data/ethazelt/hepmc2.06.09/include/HepMC/GenParticle.h \
- /data/ethazelt/hepmc2.06.09/include/HepMC/Flow.h \
- /data/ethazelt/hepmc2.06.09/include/HepMC/Polarization.h \
- /data/ethazelt/hepmc2.06.09/include/HepMC/GenCrossSection.h \
- /data/ethazelt/hepmc2.06.09/include/HepMC/HeavyIon.h \
- /data/ethazelt/hepmc2.06.09/include/HepMC/PdfInfo.h \
- /data/ethazelt/hepmc2.06.09/include/HepMC/Units.h \
- /data/ethazelt/hepmc2.06.09/include/HepMC/HepMCDefs.h \
- /data/ethazelt/hepmc2.06.09/include/HepMC/IO_GenEvent.h \
- /data/ethazelt/hepmc2.06.09/include/HepMC/IO_BaseClass.h \
- /data/ethazelt/hepmc2.06.09/include/HepMC/IO_Exception.h
+ /data/km3net/geant4.10.05.p01/source/geometry/navigation/include/G4TransportationManager.hh \
+ /data/km3net/geant4.10.05.p01/source/geometry/navigation/include/G4Navigator.hh \
+ /data/km3net/geant4.10.05.p01/source/geometry/navigation/include/G4SafetyHelper.hh \
+ /data/km3net/geant4.10.05.p01/source/geometry/navigation/include/G4TransportationManager.icc \
+ /data/km3net/geant4.10.05.p01/source/global/management/include/G4PhysicalConstants.hh \
+ /data/km3net/geant4.10.05.p01/source/global/management/include/G4SystemOfUnits.hh
