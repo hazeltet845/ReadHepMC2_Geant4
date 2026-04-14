@@ -185,6 +185,7 @@ ReadHEPMC: /data/km3net/geant4-build/BuildProducts/lib64/libG4error_propagation.
 ReadHEPMC: /data/km3net/geant4-build/BuildProducts/lib64/libG4readout.so
 ReadHEPMC: /data/km3net/geant4-build/BuildProducts/lib64/libG4physicslists.so
 ReadHEPMC: /data/km3net/geant4-build/BuildProducts/lib64/libG4parmodels.so
+ReadHEPMC: /data/ethazelt/hepmc2.06.09/lib/libHepMC.so
 ReadHEPMC: /data/km3net/geant4-build/BuildProducts/lib64/libG4FR.so
 ReadHEPMC: /data/km3net/geant4-build/BuildProducts/lib64/libG4vis_management.so
 ReadHEPMC: /data/km3net/geant4-build/BuildProducts/lib64/libG4modeling.so
